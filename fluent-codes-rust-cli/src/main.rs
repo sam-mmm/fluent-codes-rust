@@ -1,3 +1,5 @@
+use fluent_codes_rust::FluentCodes;
+
 fn main() {
-    println!("Hello, world!");
+    println!("{}", FluentCodes::generate_code_with_four_words());
 }

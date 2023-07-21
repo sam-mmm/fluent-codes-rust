@@ -64,6 +64,11 @@
 //! http://www.apache.org/licenses/LICENSE-2.0
 use rand::Rng;
 use rusqlite::{Connection, Result};
+use rust_embed::RustEmbed;
+
+#[derive(RustEmbed)]
+#[folder = "db"]
+struct Asset;
 
 /// Implementation struct
 #[derive(Debug)]
