@@ -1,0 +1,5 @@
+[workspace]
+members = [
+    "fluent-codes-rust-lib",
+    "fluent-codes-rust-cli"
+]
